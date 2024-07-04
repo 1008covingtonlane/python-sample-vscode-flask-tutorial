@@ -1,5 +1,6 @@
 # Pull a pre-built alpine docker image with nginx and python3 installed
-FROM tiangolo/uwsgi-nginx:python3.8-alpine-2020-12-19
+#FROM tiangolo/uwsgi-nginx:python3.8-alpine-2020-12-19
+FROM mcr.microsoft.com/cbl-mariner/base/nginx:1.22-cm2.0
 
 # Set the port on which the app runs; make both values the same.
 #
